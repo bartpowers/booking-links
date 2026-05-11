@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Booko – Earn Credit</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,sans-serif;
+    background:#f2f2f7;
+    color:#1c1c1e;
+    -webkit-font-smoothing:antialiased;
+    padding:0 0 40px;
+  }
+  header{
+    background:#fff;
+    padding:20px 20px 16px;
+    border-bottom:1px solid #e5e5ea;
+    text-align:center;
+    position:sticky;top:0;z-index:10;
+  }
+  header h1{font-size:22px;font-weight:700;letter-spacing:-.3px}
+  header p{font-size:13px;color:#8e8e93;margin-top:4px}
+  .badge{
+    display:inline-block;
+    background:linear-gradient(135deg,#34c759,#30d158);
+    color:#fff;
+    font-size:12px;font-weight:600;
+    padding:4px 10px;border-radius:20px;
+    margin-top:10px;
+  }
+  .section-label{
+    font-size:13px;font-weight:600;color:#8e8e93;
+    text-transform:uppercase;letter-spacing:.5px;
+    padding:24px 20px 8px;
+  }
+  .card{
+    background:#fff;
+    margin:0 16px 12px;
+    border-radius:16px;
+    padding:16px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+    text-decoration:none;
+    color:inherit;
+    box-shadow:0 1px 3px rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.03);
+    transition:transform .15s ease,box-shadow .15s ease;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .card:active{transform:scale(.97);box-shadow:0 1px 2px rgba(0,0,0,.06)}
+  .icon-wrap{
+    width:48px;height:48px;border-radius:14px;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;font-size:22px;
+  }
+  .icon-wrap.spin{background:#f0e6ff;color:#8b5cf6}
+  .icon-wrap.yoga{background:#e0f5ec;color:#34c759}
+  .icon-wrap.hiit{background:#fff0e0;color:#ff9500}
+  .icon-wrap.pilates{background:#e0ecff;color:#007aff}
+  .icon-wrap.boxing{background:#ffe0e6;color:#ff3b30}
+  .card-body{flex:1;min-width:0}
+  .card-title{font-size:16px;font-weight:600;line-height:1.3}
+  .card-meta{font-size:13px;color:#8e8e93;margin-top:2px}
+  .card-right{text-align:right;flex-shrink:0}
+  .credit{
+    font-size:18px;font-weight:700;
+    background:linear-gradient(135deg,#34c759,#30b350);
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+    background-clip:text;
+  }
+  .original{font-size:12px;color:#aeaeb2;text-decoration:line-through;margin-top:1px}
+  .arrow{
+    display:block;margin-top:4px;
+    font-size:18px;color:#c7c7cc;
+  }
+  .footer-note{
+    text-align:center;
+    font-size:12px;color:#aeaeb2;
+    padding:20px 32px 0;
+    line-height:1.5;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Classes With Credit</h1>
+  <p>Book off-peak &amp; earn account credit instantly</p>
+  <span class="badge">Up to $8 back per class</span>
+</header>
+
+<div class="section-label">This Week</div>
+
+<a href="https://bma5564.bma.mindbodyonline.com/siteId/-40915/locationId/1/class/23620?tab=book" class="card">
+  <div class="icon-wrap spin">🚴</div>
+  <div class="card-body">
+    <div class="card-title">Spin Studio – Morning Rush</div>
+    <div class="card-meta">Wed May 14 · 11:30 AM · 45 min</div>
+  </div>
+  <div class="card-right">
+    <div class="credit">+$5</div>
+    <div class="original">$34</div>
+    <span class="arrow">›</span>
+  </div>
+</a>
+
+<a href="https://bma5564.bma.mindbodyonline.com/siteId/-40915/locationId/1/class/23933?tab=book" class="card">
+  <div class="icon-wrap yoga">🧘</div>
+  <div class="card-body">
+    <div class="card-title">Vinyasa Flow – Sunrise</div>
+    <div class="card-meta">Thu May 15 · 6:00 AM · 60 min</div>
+  </div>
+  <div class="card-right">
+    <div class="credit">+$3</div>
+    <div class="original">$28</div>
+    <span class="arrow">›</span>
+  </div>
+</a>
+
+<a href="https://bma5564.bma.mindbodyonline.com/siteId/-40915/locationId/1/class/23001?tab=book" class="card">
+  <div class="icon-wrap hiit">🔥</div>
+  <div class="card-body">
+    <div class="card-title">HIIT Lab – Lunchtime Burn</div>
+    <div class="card-meta">Fri May 16 · 12:15 PM · 30 min</div>
+  </div>
+  <div class="card-right">
+    <div class="credit">+$8</div>
+    <div class="original">$40</div>
+    <span class="arrow">›</span>
+  </div>
+</a>
+
+<div class="section-label">Next Week</div>
+
+<a href="https://bma5564.bma.mindbodyonline.com/siteId/-40915/locationId/1/class/22949?tab=book" class="card">
+  <div class="icon-wrap pilates">🤸</div>
+  <div class="card-body">
+    <div class="card-title">Reformer Pilates – Midday</div>
+    <div class="card-meta">Mon May 19 · 1:00 PM · 50 min</div>
+  </div>
+  <div class="card-right">
+    <div class="credit">+$6</div>
+    <div class="original">$38</div>
+    <span class="arrow">›</span>
+  </div>
+</a>
+
+<a href="https://bma5564.bma.mindbodyonline.com/siteId/-40915/locationId/1/class/23829?tab=book" class="card">
+  <div class="icon-wrap boxing">🥊</div>
+  <div class="card-body">
+    <div class="card-title">Boxing Cardio – After Work</div>
+    <div class="card-meta">Tue May 20 · 5:30 PM · 45 min</div>
+  </div>
+  <div class="card-right">
+    <div class="credit">+$4</div>
+    <div class="original">$32</div>
+    <span class="arrow">›</span>
+  </div>
+</a>
+
+<p class="footer-note">Credit is applied to your account within 24 hours of completing the class. Tap a class to book directly.</p>
+
+</body>
+</html>
